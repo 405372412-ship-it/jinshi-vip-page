@@ -1,0 +1,69 @@
+<svg width="285" height="285" viewBox="0 0 285 285" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skin" x1="126" y1="66" x2="162" y2="151" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD7AE"/>
+      <stop offset="1" stop-color="#E7A77E"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="78" y1="145" x2="205" y2="257" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#354365"/>
+      <stop offset="1" stop-color="#1C263E"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="125" y1="158" x2="161" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F7FF"/>
+      <stop offset="1" stop-color="#C9D2E7"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="30" y1="45" x2="87" y2="117" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE8A5"/>
+      <stop offset="1" stop-color="#F0A24E"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="197" y1="47" x2="250" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A7EAE2"/>
+      <stop offset="1" stop-color="#4FB9C3"/>
+    </linearGradient>
+    <filter id="softShadow" x="25" y="31" width="239" height="234" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="10"/>
+      <feGaussianBlur stdDeviation="12"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0196078 0 0 0 0 0.027451 0 0 0 0 0.0705882 0 0 0 0.32 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path d="M48 97C63 74 88 70 108 85C126 98 121 123 102 132C83 141 63 132 48 111" stroke="url(#gold)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M58 91L47 97L55 108" stroke="#FFE7A3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M237 97C222 74 197 70 177 85C159 98 164 123 183 132C202 141 222 132 237 111" stroke="url(#cyan)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M227 91L238 97L230 108" stroke="#A7EAE2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M99 247C103 195 116 166 143 166C171 166 185 195 188 247H99Z" fill="url(#shirt)"/>
+    <path d="M77 250C81 201 103 166 132 155L143 202L154 155C183 167 204 201 208 250H77Z" fill="url(#suit)"/>
+    <path d="M112 162L131 183L143 202L119 190L102 170L112 162Z" fill="#4A5B83"/>
+    <path d="M174 162L155 183L143 202L167 190L184 170L174 162Z" fill="#27334F"/>
+    <path d="M137 190H150L155 247H132L137 190Z" fill="#EF855B"/>
+
+    <path d="M113 92C112 69 127 52 145 52C166 52 180 68 177 94L174 121C171 142 159 154 143 154C126 154 115 141 113 121V92Z" fill="url(#skin)"/>
+    <path d="M109 96C101 99 102 120 114 120L113 101C112 99 111 97 109 96Z" fill="#E9A984"/>
+    <path d="M178 96C186 99 185 120 173 120L174 101C175 99 176 97 178 96Z" fill="#E4A17A"/>
+    <path d="M111 84C119 55 139 44 161 51C180 57 188 76 178 102C174 88 161 83 143 83C130 83 119 85 111 84Z" fill="#25304A"/>
+    <path d="M117 77C129 64 145 58 166 62" stroke="#56627F" stroke-width="5" stroke-linecap="round"/>
+
+    <path d="M126 111C131 107 136 107 141 111" stroke="#27314A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M153 111C158 107 163 107 168 111" stroke="#27314A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M137 134C143 130 151 130 157 134" stroke="#9A604D" stroke-width="4" stroke-linecap="round"/>
+    <path d="M143 114L139 127H149" stroke="#C58367" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M183 175C174 154 163 146 150 153C140 158 143 173 154 174C164 176 173 184 179 198" fill="#DFA07A"/>
+    <path d="M153 166C160 164 166 167 171 174" stroke="#BA755C" stroke-width="4" stroke-linecap="round"/>
+    <path d="M94 184C108 172 120 172 130 184L112 207C103 201 97 193 94 184Z" fill="#2A3656"/>
+
+    <path d="M67 58C67 47 75 39 86 39C97 39 105 46 105 57C105 68 94 71 91 78C90 80 90 82 90 85" stroke="#F7C46A" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="90" cy="103" r="5" fill="#F7C46A"/>
+    <path d="M218 58C218 47 210 39 199 39C188 39 180 46 180 57C180 68 191 71 194 78C195 80 195 82 195 85" stroke="#83D8D2" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="195" cy="103" r="5" fill="#83D8D2"/>
+
+    <path d="M45 181C52 168 67 165 80 173" stroke="#F4C878" stroke-width="5" stroke-linecap="round"/>
+    <path d="M237 183C229 169 215 166 203 174" stroke="#83D8D2" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
