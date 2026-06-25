@@ -1061,6 +1061,415 @@
         min-height: 62px;
       }
     }
+    /* H5 only layout: the page is designed as a mobile screen, not a PC responsive page. */
+    body {
+      background: #eef2f7;
+    }
+
+    .page {
+      width: min(100%, 430px);
+      margin: 0 auto;
+      background:
+        linear-gradient(180deg, #ffffff 0%, #f7f9fc 42%, #ffffff 100%);
+      box-shadow: 0 0 0 1px rgba(25, 39, 65, .06), 0 24px 80px rgba(25, 39, 65, .12);
+    }
+
+    .shell {
+      width: calc(100% - 28px);
+    }
+
+    .section {
+      padding: 48px 0;
+    }
+
+    .section-head {
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .section-head h2 {
+      font-size: 30px;
+      line-height: 1.18;
+    }
+
+    .section-rule {
+      width: 100%;
+      min-width: 0;
+      margin-top: 12px;
+    }
+
+    .nav {
+      padding: 8px 0 18px;
+    }
+
+    .nav-links {
+      display: none;
+    }
+
+    .hero {
+      padding: 18px 0 32px;
+    }
+
+    .hero-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(128px, .72fr);
+      gap: 4px;
+      min-height: 250px;
+      border-radius: 24px;
+    }
+
+    .hero-overlay {
+      padding: 24px 0 24px 20px;
+      background: transparent;
+    }
+
+    .hero-overlay h1 {
+      font-size: 27px;
+      line-height: 1.16;
+    }
+
+    .hero-overlay p {
+      margin-top: 9px;
+      font-size: 14px;
+      letter-spacing: .02em;
+    }
+
+    .hero-points {
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .hero-point {
+      min-height: 34px;
+      padding: 0 10px;
+      font-size: 13px;
+      border-radius: 11px;
+      white-space: nowrap;
+    }
+
+    .hero-point::before {
+      width: 12px;
+      height: 12px;
+    }
+
+    .hero-visual {
+      min-height: 250px;
+      padding: 12px 4px 0 0;
+      overflow: hidden;
+    }
+
+    .phone {
+      width: 142px;
+      min-height: 214px;
+      padding: 10px 8px 12px;
+      border-width: 5px;
+      border-bottom-width: 9px;
+      border-radius: 26px 26px 0 0;
+      transform: rotate(-4deg) translate(4px, 8px);
+    }
+
+    .phone-top {
+      font-size: 9px;
+      padding: 2px 3px 7px;
+    }
+
+    .phone-tabs {
+      gap: 5px;
+      padding: 8px 0;
+    }
+
+    .phone-tab {
+      height: 18px;
+      border-radius: 6px;
+    }
+
+    .phone-news {
+      gap: 6px;
+    }
+
+    .phone-item {
+      padding: 7px;
+      border-radius: 9px;
+    }
+
+    .phone-item strong {
+      font-size: 10px;
+      line-height: 1.35;
+    }
+
+    .phone-item span {
+      margin-top: 4px;
+      height: 5px;
+      box-shadow: 0 8px 0 #f4f6f9;
+    }
+
+    .float-news {
+      display: none;
+    }
+
+    .pain-strip {
+      margin-top: 18px;
+      padding: 16px;
+      border-radius: 18px;
+    }
+
+    .pain-strip h2 {
+      font-size: 19px;
+      line-height: 1.42;
+    }
+
+    .pain-points {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .matrix-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .matrix-card {
+      position: relative;
+      min-height: 142px;
+      padding: 15px 10px;
+      border-radius: 18px;
+    }
+
+    .matrix-card::after {
+      content: "";
+      width: 34px;
+      height: 3px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--gold), rgba(213, 176, 106, .16));
+    }
+
+    .product-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 16px;
+    }
+
+    .matrix-card h3 {
+      font-size: 16px;
+    }
+
+    .matrix-card p {
+      font-size: 12px;
+    }
+
+    .content-card {
+      grid-template-columns: 1fr;
+      border-radius: 20px;
+    }
+
+    .content-side {
+      min-height: 82px;
+      padding: 14px 18px;
+    }
+
+    .content-side span {
+      font-size: 18px;
+    }
+
+    .content-side strong {
+      margin-top: 6px;
+      font-size: 16px;
+    }
+
+    .content-main {
+      padding: 20px 16px;
+    }
+
+    .content-main h3 {
+      font-size: 25px;
+    }
+
+    .example {
+      padding: 14px;
+      border-radius: 14px;
+    }
+
+    .example:nth-child(n+3) {
+      background: linear-gradient(180deg, rgba(255, 255, 255, .58), rgba(248, 250, 252, .8));
+      border-style: dashed;
+    }
+
+    .example:nth-child(n+3) p {
+      display: none;
+    }
+
+    .example:nth-child(n+3) .example-title {
+      margin-bottom: 0;
+    }
+
+    .example-title {
+      display: block;
+      font-size: 16px;
+    }
+
+    .example-title span {
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+
+    .compare-table {
+      border-radius: 18px;
+    }
+
+    .compare-row {
+      grid-template-columns: 76px minmax(0, .85fr) minmax(0, 1.12fr);
+      min-height: 74px;
+    }
+
+    .compare-cell {
+      min-height: 0;
+      padding: 11px 9px;
+      border-left: 1px solid var(--line);
+      border-top: 0;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .compare-cell:first-child {
+      border-left: 0;
+      background: #f7f9fc;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .compare-row:first-child {
+      min-height: 52px;
+    }
+
+    .compare-row:first-child .compare-cell {
+      font-size: 13px;
+    }
+
+    .vip-mark {
+      width: 20px;
+      height: 20px;
+      border-radius: 8px;
+    }
+
+    .vip-mark::before {
+      width: 8px;
+      height: 8px;
+    }
+
+    .vip-title {
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .vip-desc {
+      font-size: 11px;
+      line-height: 1.5;
+      font-weight: 700;
+    }
+
+    .compare-vip {
+      gap: 7px;
+    }
+
+    .news-panel {
+      padding: 14px;
+      border-radius: 20px;
+    }
+
+    .search-line {
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .search-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+    }
+
+    .search-line input {
+      min-height: 42px;
+      border-radius: 14px;
+    }
+
+    .news-item {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      padding: 14px;
+      border-radius: 16px;
+    }
+
+    .news-item h3 {
+      font-size: 15px;
+    }
+
+    .news-item p {
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .news-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+
+    .news-type {
+      display: inline-flex;
+      align-items: center;
+      min-height: 22px;
+      padding: 0 8px;
+      color: #73542e;
+      border-radius: 999px;
+      background: rgba(213, 176, 106, .14);
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .news-time {
+      display: inline-flex;
+      align-items: center;
+      min-height: 22px;
+      padding: 0 8px;
+      border-radius: 999px;
+      background: #f3f6fa;
+      font-size: 11px;
+    }
+
+    .closing-cta {
+      padding: 0 0 82px;
+    }
+
+    .closing-card {
+      padding: 26px 18px;
+      border-radius: 22px;
+    }
+
+    .closing-card h2 {
+      font-size: 28px;
+    }
+
+    .closing-points {
+      gap: 9px;
+    }
+
+    .deal {
+      width: min(402px, calc(100% - 28px));
+      min-height: 64px;
+      flex-direction: column;
+      gap: 2px;
+      border-radius: 20px;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .deal small {
+      display: block;
+      color: rgba(255, 255, 255, .84);
+      font-size: 12px;
+      font-weight: 800;
+    }
   </style>
 </head>
 <body>
@@ -1281,22 +1690,22 @@
             <div class="compare-cell compare-vip"><span class="vip-mark"></span><div class="vip-copy"><strong class="vip-title">💎 金十 VIP 快讯</strong></div></div>
           </div>
           <div class="compare-row">
-            <div class="compare-cell">1、快讯深度</div>
+            <div class="compare-cell">深度</div>
             <div class="compare-cell compare-basic">播报价格涨跌与库存增减为主</div>
             <div class="compare-cell compare-vip"><span class="vip-mark depth"></span><div class="vip-copy"><strong class="vip-title">穿透微观持仓</strong><span class="vip-desc">穿透 JPM/Loomis 各大顶级金银库单日持仓异动等主力底牌</span></div></div>
           </div>
           <div class="compare-row">
-            <div class="compare-cell">2. 品种聚焦度</div>
+            <div class="compare-cell">聚焦</div>
             <div class="compare-cell compare-basic">高频核心品种密度较低</div>
             <div class="compare-cell compare-vip"><span class="vip-mark focus"></span><div class="vip-copy"><strong class="vip-title">精准狙击主流</strong><span class="vip-desc">黄金/贵金属 、央行决议 · 外汇/美元、原油能源</span></div></div>
           </div>
           <div class="compare-row">
-            <div class="compare-cell">3. 情报源品质</div>
+            <div class="compare-cell">来源</div>
             <div class="compare-cell compare-basic">公开信息为主</div>
             <div class="compare-cell compare-vip"><span class="vip-mark source"></span><div class="vip-copy"><strong class="vip-title">全球顶级智囊内幕</strong><span class="vip-desc">提炼高盛、摩根大通、德银等 全球各大行未公开研报及策略</span></div></div>
           </div>
           <div class="compare-row">
-            <div class="compare-cell">4. 决策支持度</div>
+            <div class="compare-cell">决策</div>
             <div class="compare-cell compare-basic">信息高频、每日上千条资讯</div>
             <div class="compare-cell compare-vip"><span class="vip-mark decision"></span><div class="vip-copy"><strong class="vip-title">盘前精准策略参考</strong><span class="vip-desc">金十研究团精选 50-70 条/每交易日 · 机构专家直炼 欧美盘前“今日 3 个重点”，划清风控边界</span></div></div>
           </div>
@@ -1320,43 +1729,43 @@
           </div>
           <div class="news-list" id="newsList">
             <article class="news-item" data-search="COMEX黄金库存每日变动监测 Brinks单日提取逾11万盎司 锁定 Brinks HSBC Asahi 三家金库合计流出超 24 万盎司">
-              <time class="news-time">72小时</time>
               <div>
+                <div class="news-meta"><span class="news-type">库存追踪</span><time class="news-time">72小时</time></div>
                 <h3>COMEX黄金库存每日变动监测：Brinks单日提取逾11万盎司</h3>
                 <p>锁定 Brinks、HSBC 与 Asahi 三家金库合计流出超 24 万盎司。</p>
               </div>
             </article>
             <article class="news-item" data-search="COMEX白银库存每日变动监测 JPM Loomis 联合提取 总库存回落">
-              <time class="news-time">72小时</time>
               <div>
+                <div class="news-meta"><span class="news-type">库存追踪</span><time class="news-time">72小时</time></div>
                 <h3>COMEX白银库存每日变动监测：JPM与Loomis联合提取致总库存回落</h3>
                 <p>深挖出 JPM 与 Loomis 两大银库合计流出超 120 万盎司的核心驱动。</p>
               </div>
             </article>
             <article class="news-item" data-search="VIP交易提醒 非美资产复苏 上行空间 利率 美元 原油">
-              <time class="news-time">72小时</time>
               <div>
+                <div class="news-meta"><span class="news-type">交易提醒</span><time class="news-time">72小时</time></div>
                 <h3>VIP交易提醒：非美资产复苏，但上行空间仍受利率约束</h3>
                 <p>欧美盘盘前点评：特朗普暂停打击伊朗令原油回落并刺激非美反弹，高利率下美元仍有绝对优势。</p>
               </div>
             </article>
             <article class="news-item" data-search="高盛 短期内加息概率大于降息 漫长加息周期 概率较低">
-              <time class="news-time">72小时</time>
               <div>
+                <div class="news-meta"><span class="news-type">投行策略</span><time class="news-time">72小时</time></div>
                 <h3>高盛：短期内加息概率大于降息，但漫长加息周期的概率较低</h3>
                 <p>高盛预计美联储可能通过 3 次 25bp 的加息将联邦基金利率提升至 4.37% 并结束调整，前瞻性建议交易员：逢低逐步建立前端多头仓位。</p>
               </div>
             </article>
             <article class="news-item" data-search="美利率决议前瞻 预计沃什基调中性偏鹰 点阵图 如何暗示加息">
-              <time class="news-time">72小时</time>
               <div>
+                <div class="news-meta"><span class="news-type">央行决议</span><time class="news-time">72小时</time></div>
                 <h3>美利率决议前瞻：预计沃什基调中性偏鹰，点阵图如何暗示加息</h3>
                 <p>在决议前夕超前预测：即便沃什曾有降息倾向，但在通胀顽固背景下他将采取中性偏鹰立场；同时深度预判 SEP 预测报告中最多有三个点将暗示加息。</p>
               </div>
             </article>
             <article class="news-item" data-search="今日原油3个重点 美伊协议 谈判破裂 7月油价 飙至3位数以上">
-              <time class="news-time">72小时</time>
               <div>
+                <div class="news-meta"><span class="news-type">地缘风险</span><time class="news-time">72小时</time></div>
                 <h3>今日原油3个重点：美伊协议若谈判破裂，7月油价或飙至3位数以上</h3>
                 <p>针对特朗普信号研判，若 7 月底前石油流量仍无法恢复，油价可能涨至每桶 120 至 130 美元的极端区间。</p>
               </div>
@@ -1380,7 +1789,7 @@
       </div>
     </section>
 
-    <button class="deal" type="button">立即成为VIP，解锁专业快讯 | 低至10元/日</button>
+    <button class="deal" type="button">立即成为 VIP<small>解锁专业快讯｜低至10元/日</small></button>
   </main>
 
   <script>
